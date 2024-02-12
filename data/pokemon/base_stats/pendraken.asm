@@ -1,6 +1,6 @@
 	db DEX_PENDRAKEN ; pokedex id
 
-	db  80,  60,  85,  90,  95
+	db  80,  60,  85,  95,  100
 	;   hp  atk  def  spd  spc
 
 	db WATER, FAIRY ; type
