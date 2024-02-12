@@ -187,6 +187,13 @@ MoveSoundTable:
 	db SFX_BATTLE_09,          $e8, $10 ; NASTY_PLOT
 	db SFX_SUPER_EFFECTIVE,    $00, $e0 ; UPPERCUT
 	db SFX_BATTLE_28,          $40, $80 ; POWDER_SNOW
+	db SFX_BATTLE_0F,          $00, $80 ; SHADOW_CLAW
+	db SFX_BATTLE_36,          $f0, $20 ; RAGE_FIST
+	db SFX_BATTLE_29,          $f0, $80 ; DRAGON_PULSE
+	db SFX_BATTLE_22,          $11, $c0 ; OUTRAGE
+	db SFX_BATTLE_24,          $00, $80 ; DRAIN_PUNCH
+	db SFX_BATTLE_0F,          $00, $80 ; X_SCISSOR
+	db SFX_BATTLE_33,          $00, $80 ; SYNTHESIS
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 
