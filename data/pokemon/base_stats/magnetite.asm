@@ -3,7 +3,7 @@
 	db  30,  40,  75,  50, 100
 	;   hp  atk  def  spd  spc
 
-	db ELECTRIC, ELECTRIC ; type
+	db ELECTRIC, STEEL ; type
 	db 90 ; catch rate
 	db 118 ; base exp
 
