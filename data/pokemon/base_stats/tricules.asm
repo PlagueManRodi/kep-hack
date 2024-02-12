@@ -1,6 +1,6 @@
 	db DEX_TRICULES ; pokedex id
 
-	db  65, 125, 140,  45,  55
+	db  65, 125, 140,  45,  70
 	;   hp  atk  def  spd  spc
 
 	db BUG, STEEL ; type
