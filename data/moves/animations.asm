@@ -186,6 +186,13 @@ AttackAnimationPointers:
 	dw NastyPlotAnim
 	dw UppercutAnim
 	dw PowderSnowAnim
+	dw ShadowClawAnim
+	dw RageFistAnim
+	dw DragonPulseAnim
+	dw OutrageAnim
+	dw DrainPunchAnim
+	dw XScissorAnim
+	dw SynthesisAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -465,6 +472,7 @@ TakeDownAnim:
 	battle_anim NO_MOVE, SE_RESET_MON_POSITION
 	db -1 ; end
 
+OutrageAnim:
 ThrashAnim:
 	battle_anim GROWTH, SE_SHAKE_BACK_AND_FORTH
 	battle_anim NO_MOVE, SE_MOVE_MON_HORIZONTALLY
@@ -790,6 +798,7 @@ StringShotAnim:
 	battle_anim STRING_SHOT, SUBANIM_0_STRING_SHOT, 0, 8
 	db -1 ; end
 
+DragonPulseAnim:
 DragonRageAnim:
 	battle_anim DRAGON_RAGE, SUBANIM_1_FLAME_BEAM, 1, 6
 	battle_anim NO_MOVE, SUBANIM_1_FLAME_BEAM, 1, 3
@@ -928,6 +937,7 @@ DoubleTeamAnim:
 	battle_anim BARRIER, SUBANIM_1_BARRIER, 1, 6
 	db -1 ; end
 
+SynthesisAnim:
 RecoverAnim:
 	battle_anim CONFUSE_RAY, SE_BLINK_MON
 	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
@@ -1167,6 +1177,7 @@ BarrageAnim:
 	battle_anim NO_MOVE, SUBANIM_0_STAR_HIGH, 0, 5
 	db -1 ; end
 
+DrainPunchAnim:
 LeechLifeAnim:
 	battle_anim LEECH_LIFE, SUBANIM_0_STAR_THRICE, 0, 8
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
@@ -1345,6 +1356,8 @@ FalseSurrenderAnim:
 	battle_anim TAKE_DOWN, SE_DARK_SCREEN_FLASH
 	db -1 ; end
 
+XScissorAnim:
+ShadowClawAnim:
 NightSlashAnim:
 KowtowCleaveAnim:
 	battle_anim NO_MOVE, SE_DARK_SCREEN_PALETTE
@@ -1356,6 +1369,19 @@ KowtowCleaveAnim:
 DisarmingVoiceAnim:
 	battle_anim DISARMING_VOICE, SUBANIM_0_HEART_1_MUSIC, 1, 6
 	db -1 ; end
+
+RageFistAnim:
+	battle_anim ROCK_SLIDE, SE_DARKEN_MON_PALETTE
+	battle_anim NO_MOVE, SE_SHOOT_MANY_BALLS_UPWARD
+	battle_anim NO_MOVE, SE_DARKEN_SCREEN_PALETTE
+	battle_anim HEADBUTT, SE_MOVE_MON_HORIZONTALLY
+	battle_anim NO_MOVE, SE_RESET_MON_POSITION
+	battle_anim RAGE, SUBANIM_1_STAR_BIG_MOVING, 1, 8
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1; end
 
 BallTossAnim:
 	battle_anim NO_MOVE, SUBANIM_0_BALL_TOSS_HIGH, 0, 3
