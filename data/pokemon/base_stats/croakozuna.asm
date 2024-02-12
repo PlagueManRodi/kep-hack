@@ -1,6 +1,6 @@
 	db DEX_CROAKOZUNA ; pokedex id
 
-	db 134,  75,  70,  60,  75
+	db 134,  85,  70,  60,  85
 	;   hp  atk  def  spd  spc
 
 	db WATER, DARK ; type
