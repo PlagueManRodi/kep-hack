@@ -192,7 +192,14 @@
 	const NASTY_PLOT   ; b8
 	const UPPERCUT	   ; b9
 	const POWDER_SNOW	; b10
-	const STRUGGLE     ; formerly a5, now c0
+	const SHADOW_CLAW  ; c0
+	const RAGE_FIST    ; c1
+	const DRAGON_PULSE ; c2
+	const OUTRAGE      ; c3
+	const DRAIN_PUNCH  ; c4
+	const X_SCISSOR    ; c5
+	const SYNTHESIS    ; c6
+	const STRUGGLE     ; formerly a5, now c7
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.
