@@ -1,6 +1,6 @@
 	db DEX_LUXWAN ; pokedex id
 
-	db  72, 105,  75,  70,  63
+	db  72, 110,  75, 100,  68
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, FLYING ; type
