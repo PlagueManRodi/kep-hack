@@ -1,6 +1,6 @@
 	db DEX_MAGMORTAR ; pokedex id
 
-	db  75,  95,  67,  83,  95
+	db  75,  95,  67,  83, 105
 	;   hp  atk  def  spd  spc
 
 	db FIRE, FIRE ; type
