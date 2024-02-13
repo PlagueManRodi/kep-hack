@@ -1,6 +1,6 @@
 	db DEX_PIDGEOT ; pokedex id
 
-	db  83,  90,  75,  91,  80
+	db  83,  90,  75,  91,  90
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, FLYING ; type
@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   \
-	     FLY
+	tmhm RAZOR_WIND,   WHIRLWIND,   TOXIC,       TAKE_DOWN,    DOUBLE_EDGE,  \
+	     BLIZZARD,     HYPER_BEAM,  RAGE,        THUNDER,      MIMIC,        \
+	     DOUBLE_TEAM,  REFLECT,     BIDE,        FIRE_BLAST,   SWIFT,        \
+	     SKY_ATTACK,   REST,        SUBSTITUTE,  FLY
 	; end
 
 	db BANK(PidgeotPicFront)
