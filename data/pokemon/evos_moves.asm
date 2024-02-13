@@ -337,7 +337,6 @@ SpearowEvosMoves:
 	db 29, DRILL_PECK
 	db 36, AGILITY
 	db 43, TAKE_DOWN ; Prototype
-	db 45, SKY_ATTACK
 	db 50, WHIRLWIND ; Prototype, comedy
 	db 0
 
@@ -381,7 +380,6 @@ SlowbroEvosMoves:
 	db 20, CONFUSION
 	db 22, HEADBUTT
 	db 27, GROWL
-	db 33, WATER_GUN
 	db 37, WITHDRAW
 	db 44, AMNESIA
 	db 50, PSYCHIC_M
@@ -469,11 +467,9 @@ GengarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 22, POISON_GAS
 	db 29, HYPNOSIS
 	db 33, DREAM_EATER
 	db 39, SLUDGE
-	db 42, FEINT_ATTACK
 	db 46, SHADOW_CLAW
 	db 0
 
@@ -535,7 +531,6 @@ RhyhornEvosMoves:
 	db 35, ROCK_SLIDE
 	db 40, HORN_DRILL
 	db 43, EARTHQUAKE
-	db 45, DRAGON_PULSE
 	db 50, TAKE_DOWN
 	db 0
 
@@ -545,9 +540,7 @@ LaprasEvosMoves:
 ; Learnset
 	db 16, SING
 	db 20, MIST
-	db 22, BUBBLEBEAM
 	db 25, BODY_SLAM
-	db 28, AURORA_BEAM
 	db 31, CONFUSE_RAY
 	db 38, ICE_BEAM
 	db 42, DRAGON_PULSE
@@ -575,10 +568,8 @@ GyaradosEvosMoves:
 	db 0
 ; Learnset
 	db 20, BITE
-	db 22, LEER
 	db 24, BUBBLEBEAM
 	db 26, DRAGON_RAGE
-	db 33, WATERFALL
 	db 38, DRAGON_PULSE
 	db 41, HYDRO_PUMP
 	db 52, HYPER_BEAM
@@ -608,7 +599,6 @@ TentacoolEvosMoves:
 	db 7, SUPERSONIC
 	db 10, WRAP
 	db 12, POISON_STING
-	db 14, WATER_GUN
 	db 22, ACID
 	db 25, BUBBLEBEAM
 	db 27, CONSTRICT
@@ -623,7 +613,6 @@ GastlyEvosMoves:
 	db EV_LEVEL, 25, HAUNTER
 	db 0
 ; Learnset
-	db 22, POISON_GAS
 	db 27, HYPNOSIS
 	db 35, DREAM_EATER
 	db 0
@@ -650,9 +639,8 @@ StaryuEvosMoves:
 	db EV_ITEM, WATER_STONE, 1, STARMIE
 	db 0
 ; Learnset
-	db 14, WATER_GUN
+	db 20, WATER_GUN
 	db 22, HARDEN
-	db 25, BUBBLEBEAM
 	db 27, RECOVER
 	db 30, PSYBEAM
 	db 32, SWIFT
@@ -786,7 +774,6 @@ FearowEvosMoves:
 	db 43, AGILITY
 	db 50, TAKE_DOWN ; Prototype
 	db 54, SKY_ATTACK
-	db 56, WHIRLWIND ; Prototype, comedy
 	db 0
 
 PidgeyEvosMoves:
@@ -875,8 +862,6 @@ MachokeEvosMoves:
 	db 36, FOCUS_ENERGY
 	db 44, SEISMIC_TOSS
 	db 48, SUBMISSION
-	db 60, MEGA_PUNCH ; Prototype
-	db 66, MEGA_KICK ; Prototype
 	db 0
 
 MrMimeEvosMoves:
@@ -1005,10 +990,8 @@ MagmarEvosMoves:
 	db 30, LEER
 	db 35, FIRE_PUNCH
 	db 39, CONFUSE_RAY
-	db 45, FLAMETHROWER
 	db 48, SMOKESCREEN
 	db 52, SMOG
-	db 55, FIRE_BLAST
 	db 0
 
 BuuEvosMoves:
@@ -1031,9 +1014,7 @@ ElectabuzzEvosMoves:
 	db 15, THUNDERSHOCK
 	db 20, SCREECH
 	db 32, THUNDERPUNCH
-	db 45, THUNDERBOLT
 	db 49, LIGHT_SCREEN
-	db 54, THUNDER
 	db 0
 
 MagnetonEvosMoves:
@@ -1327,7 +1308,6 @@ ArticunoEvosMoves:
 	db 51, BLIZZARD
 	db 55, AGILITY
 	db 60, MIST
-	db 65, SKY_ATTACK
 	db 0
 
 ZapdosEvosMoves:
@@ -1337,7 +1317,6 @@ ZapdosEvosMoves:
 	db 51, THUNDER
 	db 55, AGILITY
 	db 60, LIGHT_SCREEN
-	db 65, SKY_ATTACK
 	db 0
 
 DittoEvosMoves:
@@ -1416,9 +1395,6 @@ VulpiiiEvosMoves:
 	db 19, DOUBLE_TEAM
 	db 25, CONFUSE_RAY
 	db 31, FLAMETHROWER
-	db 38, FIRE_SPIN
-	db 40, SHADOW_CLAW
-	db 45, FIRE_BLAST
 	db 0
 
 VulpixEvosMoves:
@@ -1463,15 +1439,6 @@ RaichuEvosMoves:
 	db EV_TRADE, 1, GOROCHU ; It matches the old rumour and everyone will try it, don't bother doing Thunder Stone 2...
 	db 0
 ; Learnset
-	db 6, TAIL_WHIP
-	db 8, THUNDER_WAVE
-	db 11, QUICK_ATTACK
-	db 15, DOUBLE_TEAM
-	db 20, SLAM
-	db 26, THUNDERBOLT
-	db 33, AGILITY
-	db 41, THUNDER
-	db 50, LIGHT_SCREEN
 	db 0
 
 RibbitoEvosMoves:
@@ -1892,7 +1859,6 @@ LuxwanEvosMoves:
 	db 25, AGILITY
 	db 27, SLASH
 	db 30, DRILL_PECK
-	db 55, SKY_ATTACK 
 	db 0
 
 DodrioEvosMoves:
@@ -1905,7 +1871,6 @@ DodrioEvosMoves:
 	db 28, DRILL_PECK
 	db 36, TRI_ATTACK
 	db 42, AGILITY
-	db 55, SKY_ATTACK
 	db 0
 
 PrimeapeEvosMoves:
@@ -2188,7 +2153,6 @@ DecillaEvosMoves:
 	db 41, ROCK_SLIDE
 	db 43, EARTHQUAKE
 	db 45, DRAGON_PULSE
-	db 50, OUTRAGE
 	db 0
 
 KinglerEvosMoves:
@@ -2207,12 +2171,7 @@ CloysterEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, BIDE ; Prototype
-	db 18, SUPERSONIC
-	db 20, BUBBLEBEAM
-	db 23, CLAMP
 	db 30, AURORA_BEAM
-	db 39, LEER
 	db 45, ICE_BEAM
 	db 50, SPIKE_CANNON
 	db 52, SELFDESTRUCT
@@ -2315,11 +2274,9 @@ HaunterEvosMoves:
 	db EV_TRADE, 1, GENGAR
 	db 0
 ; Learnset
-	db 22, POISON_GAS
 	db 29, HYPNOSIS
 	db 33, DREAM_EATER
 	db 36, SLUDGE
-	db 42, FEINT_ATTACK
 	db 46, SHADOW_CLAW
 	db 0
 
@@ -2353,7 +2310,6 @@ PidgeottoEvosMoves:
 	db 25, WING_ATTACK
 	db 40, AGILITY
 	db 49, MIRROR_MOVE
-	db 50, SKY_ATTACK
 	db 0
 
 PidgeotEvosMoves:
@@ -2427,7 +2383,6 @@ TentacruelEvosMoves:
 	db 7, SUPERSONIC
 	db 10, WRAP
 	db 12, POISON_STING
-	db 14, WATER_GUN
 	db 22, ACID
 	db 25, BUBBLEBEAM
 	db 27, CONSTRICT
@@ -2711,12 +2666,7 @@ GorochuEvosMoves:
 ; Learnset
 	db 23, SAND_ATTACK
 	db 25, BITE
-	db 27, FOCUS_ENERGY
 	db 30, LEER
-	db 35, THUNDERBOLT
-	db 40, SLAM
-	db 45, AGILITY
-	db 50, THUNDER
 	db 65, HORN_DRILL
 	db 0
 
@@ -2854,7 +2804,6 @@ ArticunoGEvosMoves:
 	db 70, PSYCHIC_M
 	db 75, RECOVER
 	db 80, DREAM_EATER
-	db 85, SKY_ATTACK
 	db 0
 
 ZapdosGEvosMoves:
@@ -2869,7 +2818,6 @@ ZapdosGEvosMoves:
 	db 70, DRILL_PECK
 	db 75, ROLLING_KICK
 	db 80, HI_JUMP_KICK
-	db 85, SKY_ATTACK
 	db 0
 
 MoltresGEvosMoves:
@@ -3020,7 +2968,6 @@ UmbreonEvosMoves:
 	db 16, BRUTAL_SWING
 	db 23, QUICK_ATTACK
 	db 30, FEINT_ATTACK
-	db 32, CONFUSE_RAY
 	db 36, FAKE_TEARS
 	db 42, TAKE_DOWN
 	db 52, FALSE_SURRENDER
@@ -3242,11 +3189,7 @@ PolitoedEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 14, WATER_GUN
-	db 16, HYPNOSIS
-	db 20, BUBBLEBEAM
 	db 22, DISARMING_VOICE
-	db 26, DOUBLESLAP
 	db 30, PSYBEAM
 	db 33, BODY_SLAM
 	db 41, AMNESIA
@@ -3271,7 +3214,6 @@ ElectivireEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, THUNDERSHOCK
 	db 20, SCREECH
 	db 25, LOW_KICK
 	db 32, THUNDERPUNCH
@@ -3285,7 +3227,6 @@ MagmortarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, LEER
 	db 35, FIRE_PUNCH
 	db 39, CONFUSE_RAY
 	db 45, FLAMETHROWER
@@ -3298,17 +3239,11 @@ DisturbanEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, BIDE ; Prototype
 	db 15, POISON_GAS
-	db 18, SUPERSONIC
-	db 20, BUBBLEBEAM
-	db 22, POISON_STING
-	db 25, CLAMP
+	db 20, POISON_STING
 	db 30, LEECH_LIFE
-	db 39, LEER
-	db 45, ICE_BEAM
-	db 48, SLUDGE
-	db 51, TOXIC
+	db 40, SLUDGE
+	db 50, TOXIC
 	db 0
 	
 GentlarvaEvosMoves:
@@ -3341,7 +3276,6 @@ CarapthorEvosMoves:
 	db 28, LEECH_LIFE
 	db 30, MEGA_PUNCH
 	db 32, SUBSTITUTE
-	db 35, X_SCISSOR
 	db 40, SEISMIC_TOSS
 	db 45, TAKE_DOWN
 	db 50, SUBMISSION
@@ -3748,8 +3682,7 @@ MarowakAEvosMoves:
 	db 33, FLAMETHROWER
 	db 36, SWORDS_DANCE
 	db 41, THRASH
-	db 44, BONEMERANG
-	db 50, FIRE_BLAST
+	db 45, BONEMERANG
 	db 0
 	
 WeezingGEvosMoves:
