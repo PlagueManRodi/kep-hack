@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/gentlarva.pic", 0, 1 ; sprite dimensions
 	dw GentlarvaPicFront, GentlarvaPicBack
 
-	db LEECH_LIFE, STRING_SHOT, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TACKLE, STRING_SHOT, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
