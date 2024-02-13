@@ -1,6 +1,6 @@
 	db DEX_CARAPTHOR ; pokedex id
 
-	db  60,  85,  50,  60,  60
+	db  60,  95,  50,  60,  60
 	;   hp  atk  def  spd  spc
 
 	db BUG, FIGHTING ; type
