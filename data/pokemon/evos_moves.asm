@@ -414,18 +414,7 @@ ExeggutorEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, CONFUSION
-	db 25, REFLECT
-	db 28, LEECH_SEED
-	db 30, STUN_SPORE
-	db 32, POISONPOWDER
-	db 35, MEGA_DRAIN
-	db 37, PSYBEAM
-	db 40, STOMP
-	db 45, SLEEP_POWDER
-	db 50, SYNTHESIS
-	db 55, PSYCHIC_M
-	db 58, SOLARBEAM
+	db 20, STOMP
 	db 0
 
 LickitungEvosMoves:
@@ -569,16 +558,6 @@ ArcanineEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, RAGE
-	db 18, EMBER
-	db 23, LEER
-	db 30, TAKE_DOWN
-	db 37, FLAMETHROWER
-	db 40, AGILITY
-	db 45, DOUBLE_EDGE ; Prototype
-	db 48, DRAGON_PULSE
-	db 55, FIRE_BLAST
-	db 60, OUTRAGE
 	db 0
 
 MewEvosMoves:
@@ -1461,14 +1440,6 @@ NinetalesEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, QUICK_ATTACK
-	db 14, ROAR
-	db 21, DOUBLE_TEAM
-	db 28, CONFUSE_RAY
-	db 35, FLAMETHROWER
-	db 42, FIRE_SPIN
-	db 45, SHADOW_CLAW
-	db 50, FIRE_BLAST
 	db 0
 
 PikachuEvosMoves:
@@ -1723,16 +1694,7 @@ WigglytuffEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 9, COUNTER ; Prototype - Pound made L1 because lol imagine using puff otherwise
-	db 14, DISABLE
-	db 16, DISARMING_VOICE
-	db 19, DEFENSE_CURL
-	db 24, DOUBLESLAP
-	db 29, REST
-	db 34, BODY_SLAM
-	db 36, DAZZLE_GLEAM
-	db 39, TAKE_DOWN ; Prototype
-	db 44, DOUBLE_EDGE
+	db 45, DAZZLE_GLEAM
 	db 0
 
 EeveeEvosMoves:
@@ -1881,12 +1843,7 @@ PoliwrathEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 14, WATER_GUN
-	db 16, HYPNOSIS
-	db 20, BUBBLEBEAM
-	db 26, DOUBLESLAP
-	db 30, DRAIN_PUNCH
-	db 33, BODY_SLAM
+	db 35, DRAIN_PUNCH
 	db 41, AMNESIA
 	db 49, HYDRO_PUMP
 	db 52, SUBMISSION
@@ -2293,16 +2250,7 @@ ClefableEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 13, SING
-	db 15, DISARMING_VOICE
-	db 18, DOUBLESLAP
-	db 24, MINIMIZE
-	db 28, TAKE_DOWN ; Prototype
-	db 31, METRONOME
-	db 34, BODY_SLAM
-	db 36, DAZZLE_GLEAM
-	db 39, DEFENSE_CURL
-	db 48, LIGHT_SCREEN
+	db 45, DAZZLE_GLEAM
 	db 0
 
 WeezingEvosMoves:
@@ -2426,16 +2374,6 @@ StarmieEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 14, WATER_GUN
-	db 22, HARDEN
-	db 25, BUBBLEBEAM
-	db 27, RECOVER
-	db 30, PSYBEAM
-	db 32, SWIFT
-	db 37, MINIMIZE
-	db 42, LIGHT_SCREEN
-	db 55, PSYCHIC_M
-	db 60, HYDRO_PUMP
 	db 0
 
 BulbasaurEvosMoves:
@@ -2988,12 +2926,6 @@ VileplumeEvosMoves:
 	db 15, POISONPOWDER
 	db 17, STUN_SPORE
 	db 19, SLEEP_POWDER
-	db 24, MEGA_DRAIN
-	db 28, ACID
-	db 30, SYNTHESIS
-	db 35, SLUDGE
-	db 38, PETAL_DANCE
-	db 52, SOLARBEAM
 	db 0
 
 BellsproutEvosMoves:
@@ -3035,12 +2967,6 @@ VictreebelEvosMoves:
 	db 13, WRAP
 	db 15, POISONPOWDER
 	db 18, SLEEP_POWDER
-	db 21, STUN_SPORE
-	db 23, SYNTHESIS
-	db 25, ACID
-	db 30, RAZOR_LEAF
-	db 36, SLUDGE
-	db 49, SLAM
 	db 0
 
 ScizorEvosMoves:
@@ -3325,7 +3251,6 @@ PolitoedEvosMoves:
 	db 33, BODY_SLAM
 	db 41, AMNESIA
 	db 49, HYDRO_PUMP
-	db 52, BLIZZARD
 	db 0
 
 SlowkingEvosMoves:
@@ -3350,7 +3275,6 @@ ElectivireEvosMoves:
 	db 20, SCREECH
 	db 25, LOW_KICK
 	db 32, THUNDERPUNCH
-	db 35, DRAIN_PUNCH
 	db 42, THUNDERBOLT
 	db 49, LIGHT_SCREEN
 	db 54, THUNDER
@@ -3427,7 +3351,6 @@ MagnezoneEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, IRON_DEFENSE
 	db 30, METAL_SOUND
 	db 35, MAGNET_BOMB
 	db 40, THUNDERBOLT
@@ -3439,12 +3362,6 @@ PorygonZEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, THUNDERSHOCK
-	db 23, PSYBEAM
-	db 28, RECOVER
-	db 35, AGILITY
-	db 42, TRI_ATTACK
-	db 45, DEFENSE_CURL
 	db 50, NASTY_PLOT
 	db 0
 
@@ -3858,7 +3775,6 @@ TaurosPEvosMoves:
 	db 35, ROLLING_KICK
 	db 44, RAGE
 	db 48, JUMP_KICK
-	db 50, COUNTER
 	db 52, HI_JUMP_KICK
 	db 0
 
@@ -3866,8 +3782,7 @@ TaurosPAEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, LOW_KICK
-	db 24, BUBBLEBEAM
+	db 21, LOW_KICk
 	db 28, LEER
 	db 35, WATERFALL
 	db 44, RAGE
@@ -3880,7 +3795,6 @@ TaurosPBEvosMoves:
 	db 0
 ; Learnset
 	db 21, LOW_KICK
-	db 24, EMBER
 	db 28, LEER
 	db 35, FLAMETHROWER
 	db 44, RAGE
