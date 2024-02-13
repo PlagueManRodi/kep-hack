@@ -3576,7 +3576,7 @@ TaurosPAEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, LOW_KICk
+	db 21, LOW_KICK
 	db 28, LEER
 	db 35, WATERFALL
 	db 44, RAGE
