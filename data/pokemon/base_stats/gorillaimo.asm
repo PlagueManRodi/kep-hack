@@ -1,6 +1,6 @@
     db DEX_GORILLAIMO ; pokedex id
 
-    db 130, 100,  75,  65,  65
+    db 130, 100,  75,  65,  60
     ;   hp  atk  def  spd  spc
 
     db NORMAL, FIGHTING ; type
