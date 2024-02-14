@@ -1,6 +1,6 @@
 	db DEX_BELLIGNAN ; pokedex id
 
-	db  80, 120,  65,  70,  85
+	db  80, 120,  65,  70,  95
 	;   hp  atk  def  spd  spc
 
 	db GRASS, POISON ; type
