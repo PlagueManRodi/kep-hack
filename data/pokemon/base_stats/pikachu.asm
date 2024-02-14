@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/pikachu.pic", 0, 1 ; sprite dimensions
 	dw PikachuPicFront, PikachuPicBack
 
-	db THUNDERSHOCK, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
+	db THUNDERSHOCK, GROWL, FLASH, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
