@@ -1522,6 +1522,7 @@ IguanarchEvosMoves:
 	db 35, GLARE
 	db 45, DRAGON_PULSE
 	db 55, SLASH
+	db 58, HYDRO_PUMP
 	db 60, OUTRAGE
 	db 0
 
