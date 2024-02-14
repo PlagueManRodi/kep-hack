@@ -18,7 +18,7 @@
 	     RAGE,         DRAGON_RAGE,  EARTHQUAKE,   FISSURE,      DIG,          \
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
 	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         ROCK_SLIDE,   \
-	     SUBSTITUTE
+	     SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(ArcanineHPicFront)
