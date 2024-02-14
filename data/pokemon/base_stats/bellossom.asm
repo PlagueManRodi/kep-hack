@@ -1,6 +1,6 @@
 	db DEX_BELLOSSOM ; pokedex id
 
-	db  75,  80,  85,  50, 100
+	db  75,  80,  85,  50, 110
 	;   hp  atk  def  spd  spc
 
 	db GRASS, FAIRY ; type
@@ -17,7 +17,7 @@
 	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,    MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         SUBSTITUTE,   \
-	     CUT
+	     CUT,          FLASH
 	; end
 
 	db BANK(BellossomPicFront)
