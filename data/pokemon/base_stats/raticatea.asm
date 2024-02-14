@@ -1,6 +1,6 @@
 	db DEX_RATICATE_A ; pokedex id
 
-	db  75,  71,  70,  77,  40 ; lol
+	db  75,  71,  70,  77,  80 ; lol
 	;   hp  atk  def  spd  spc
 
 	db DARK, NORMAL ; type
