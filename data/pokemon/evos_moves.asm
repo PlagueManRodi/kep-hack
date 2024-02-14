@@ -315,6 +315,7 @@ ClefairyEvosMoves:
 	db 0
 ; Learnset
 	db 13, SING
+	db 15, DISARMING_VOICE
 	db 18, DOUBLESLAP
 	db 24, MINIMIZE
 	db 28, TAKE_DOWN ; Prototype
@@ -345,7 +346,6 @@ VoltorbEvosMoves:
 	db 0
 ; Learnset
 	db 17, SONICBOOM
-	db 20, THUNDERSHOCK
 	db 22, SELFDESTRUCT
 	db 29, LIGHT_SCREEN
 	db 31, THUNDERBOLT
@@ -718,7 +718,8 @@ GrowlitheEvosMoves:
 	db 39, AGILITY
 	db 42, DOUBLE_EDGE ; Prototype
 	db 45, DRAGON_PULSE
-	db 50, OUTRAGE
+	db 50, FIRE_BLAST
+	db 55, OUTRAGE
 	db 0
 
 OnixEvosMoves:
@@ -1580,7 +1581,8 @@ JigglypuffEvosMoves:
 	db 0
 ; Learnset
 	db 9, COUNTER ; Prototype - Pound made L1 because lol imagine using puff otherwise
-	db 14, DISABLE
+	db 13, DISABLE
+	db 15, DISARMING_VOICE
 	db 19, DEFENSE_CURL
 	db 24, DOUBLESLAP
 	db 29, REST
@@ -2092,7 +2094,6 @@ ElectrodeEvosMoves:
 	db 0
 ; Learnset
 	db 17, SONICBOOM
-	db 20, THUNDERSHOCK
 	db 22, SELFDESTRUCT
 	db 29, LIGHT_SCREEN
 	db 35, THUNDERBOLT
@@ -3346,7 +3347,6 @@ ElectrodeHEvosMoves: ; voltorb-hisui learnset which is also trode's anyway
 	db 0
 ; Learnset
 	db 17, SONICBOOM
-	db 20, THUNDERSHOCK
 	db 22, SELFDESTRUCT
 	db 25, MEGA_DRAIN
 	db 29, LIGHT_SCREEN
