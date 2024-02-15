@@ -19,7 +19,7 @@
 	     SUBMISSION,   COUNTER,      RAGE,         THUNDERBOLT,  THUNDER,      \
 	     EARTHQUAKE,   FISSURE,      MIMIC,        DOUBLE_TEAM,  BIDE,         \
 		 FIRE_BLAST,   SKULL_BASH,   REST,         SUBSTITUTE,   SURF,         \
-	     STRENGTH
+	     STRENGTH,     FLASH
 	; end
 
 	db BANK(TaurosPAPicFront)
