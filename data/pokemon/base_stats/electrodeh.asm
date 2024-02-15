@@ -1,6 +1,6 @@
 	db DEX_ELECTRODE_H ; pokedex id
 
-	db  60,  50,  70, 140,  80
+	db  60,  50,  70, 150,  80
 	;   hp  atk  def  spd  spc
 
 	db ELECTRIC, GRASS ; type
