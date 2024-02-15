@@ -17,9 +17,9 @@
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   \
 		 COUNTER,      SEISMIC_TOSS, RAGE,         DRAGON_RAGE,  THUNDERBOLT,  \
-		 THUNDER,      EARTHQUAKE,   FISSURE,      DIG,			 MIMIC,        \
+		 THUNDER,      EARTHQUAKE,   FISSURE,      DIG,		 MIMIC,        \
 		 DOUBLE_TEAM,  BIDE,         FIRE_BLAST,   SKULL_BASH,   REST,         \
-		 ROCK_SLIDE,   SUBSTITUTE,   SURF,         STRENGTH
+		 ROCK_SLIDE,   SUBSTITUTE,   SURF,         STRENGTH,     FLASH
 	; end
 
 	db BANK(GawarhedPicFront)
