@@ -16,7 +16,8 @@
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    RAGE,         MEGA_DRAIN,   THUNDERBOLT,  \
 	     THUNDER,      MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, \
-	     FIRE_BLAST,   REST,         EXPLOSION,    SUBSTITUTE,   STRENGTH
+	     FIRE_BLAST,   REST,         EXPLOSION,    SUBSTITUTE,   STRENGTH,     \
+	     FLASH
 	; end
 
 	db BANK(GrimerPicFront)
