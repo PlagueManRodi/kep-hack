@@ -17,7 +17,7 @@
 	tmhm TOXIC,        BODY_SLAM,    SWORDS_DANCE, TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,    MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   \
-	     REST,         SUBSTITUTE
+	     REST,         SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(LeafeonPicFront)
