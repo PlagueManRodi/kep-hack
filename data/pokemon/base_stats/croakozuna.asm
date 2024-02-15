@@ -19,7 +19,8 @@
 	     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         DIG,          TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         METRONOME,    SWIFT,        REST,         \
-	     PSYWAVE,      SUBSTITUTE,   CUT,          SURF,         FLASH
+	     PSYWAVE,      SUBSTITUTE,   CUT,          SURF,         STRENGTH,     \
+	     FLASH
 	; end
 
 	db BANK(CroakozunaPicFront)
