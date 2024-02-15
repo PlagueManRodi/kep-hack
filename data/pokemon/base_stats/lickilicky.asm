@@ -20,7 +20,7 @@
 	     RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      \
 	     MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, FIRE_BLAST,   \
 	     SKULL_BASH,   REST,         EXPLOSION,    SUBSTITUTE,   CUT,          \
-	     SURF,         STRENGTH
+	     SURF,         STRENGTH,     FLASH
 	; end
 
 	db BANK(LickilickyPicFront)
