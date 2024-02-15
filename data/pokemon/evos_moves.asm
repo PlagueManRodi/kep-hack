@@ -845,6 +845,7 @@ MrMimeEvosMoves:
 	db 23, LIGHT_SCREEN
 	db 31, DOUBLESLAP
 	db 39, MEDITATE
+	db 44, DAZZLE_GLEAM
 	db 47, SUBSTITUTE
 	db 0
 
