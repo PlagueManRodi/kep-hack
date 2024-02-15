@@ -17,7 +17,8 @@
 	tmhm SWORDS_DANCE, TOXIC,        HORN_DRILL,   TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
 	     RAGE,         EARTHQUAKE,   FISSURE,      MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         SKULL_BASH,   REST,         SUBSTITUTE,   SURF
+	     BIDE,         SKULL_BASH,   REST,         SUBSTITUTE,   CUT,          \
+	     SURF
 	; end
 
 	db BANK(SharpoonPicFront)
